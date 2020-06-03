@@ -4,10 +4,12 @@ Code provided here allows the exploitation of Half Symmetric Lens (HSL)-based Ar
 
 ## 1) To run simulation:
 ```
-$python code.py [parameters]
+$python selected_algorithm.py [parameters]
 ```
 
 parameters are:
+
+- selected_algorithm.py: brute_force.py, genetic.py, or heuristic.py
 
 - max_x: side length of the service area.
 
